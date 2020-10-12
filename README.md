@@ -6,6 +6,11 @@
 git clone https://github.com/rakhadkz/ruby-backend-rakhad.git
 cd ruby-backend-rakhad
 ```
+### Installing all dependencies
+
+```bash
+bundle install
+```
 
 ### Configure .env  file
 Create .env file in the root and set your postgresql config into as shown on the template below 
