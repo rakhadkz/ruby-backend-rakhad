@@ -1,4 +1,4 @@
-# Getting start
+# Getting started
 
 ### Clone the repository
 
