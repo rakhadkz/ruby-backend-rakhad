@@ -14,7 +14,7 @@ cd ruby-backend-rakhad
 ### Configure .env  file
 Create .env file in the root and set your postgresql config into as shown on the template below 
 ```
-DB_USER = postgres
+DB_USER = admin
 DB_PASSWORD = 123
 DB_PORT = 5433
 DB_NAME = postgres
