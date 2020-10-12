@@ -7,7 +7,7 @@ Chto-to napishu
 ### Clone the repository
 
 ```bash
-git init https://github.com/rakhadkz/ruby-backend-rakhad.git
+git clone https://github.com/rakhadkz/ruby-backend-rakhad.git
 cd ruby-backend-rakhad
 ```
 
