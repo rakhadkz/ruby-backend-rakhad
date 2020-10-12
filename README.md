@@ -1,8 +1,4 @@
-# README
-
-Chto-to napishu
-
-## Installation
+# Getting start
 
 ### Clone the repository
 
