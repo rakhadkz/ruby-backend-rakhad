@@ -1,24 +1,33 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Chto-to napishu
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+### Clone the repository
 
-* System dependencies
+```bash
+git init https://github.com/rakhadkz/ruby-backend-rakhad.git
+cd ruby-backend-rakhad
+```
 
-* Configuration
+### Configure .env  file
+Create .env file in the root and set your postgresql config into as shown on the template below 
+```
+DB_USER = postgres
+DB_PASSWORD = 123
+DB_PORT = 5433
+DB_NAME = postgres
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Initialize the database
+```ruby
+rails db:create db:migrate db:seed
+#db:create creates the database
+#db:migrate runs (single) migrations that have not run yet.
+#db:seed (only) runs the db/seed.rb file
+```
+### Serve an app
+```ruby
+rails s
+```
