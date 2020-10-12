@@ -6,16 +6,14 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-=begin
 begin
   10.times do
     Catalog.create({title: Faker::Book.genre})
   end
 end
-=end
 
 begin
   60.times do
-    Movie.create({name: Faker::Movie.title, catalog_id: rand(45..55)})
+    Movie.create({name: Faker::Movie.title, catalog_id: rand(1..10)})
   end
 end
